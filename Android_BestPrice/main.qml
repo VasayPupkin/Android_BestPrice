@@ -47,7 +47,7 @@ Window {
         id: addButton
         parent: mainWindow
         text: "+"
-        side: 100
+        side: mainWindow.width/10//100
         anchors {
             bottom: parent.bottom
             right: parent.right
